@@ -1126,7 +1126,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.12.5", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.10.5", "@babel/runtime@^7.12.13", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.9.2":
   version "7.14.0"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.0.tgz#46794bc20b612c5f75e62dd071e24dfd95f1cbe6"
   integrity sha512-JELkvo/DlpNdJ7dlyw/eY7E0suy5i5GQH+Vlxaq1nsNJ+H7f4Vtv3jMeCEgRhZZQFXTjldYfQgv2qmM6M1v5wA==
@@ -1211,7 +1211,7 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
 
-"@emotion/is-prop-valid@^0.8.8":
+"@emotion/is-prop-valid@^0.8.7", "@emotion/is-prop-valid@^0.8.8":
   version "0.8.8"
   resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-0.8.8.tgz#db28b1c4368a259b60a97311d6a952d4fd01ac1a"
   integrity sha512-u5WtneEAr5IDG2Wv65yhunPSMLIpuKsbuOktRojfrEiEvRyC85LgPMZI63cr7NUqT8ZIGdSVg8ZKGxIug4lXcA==
@@ -1550,6 +1550,30 @@
   integrity sha512-MZPUxrmFubI36XS1DI3qmI0YdN1gks62JtFZvxR67ljjSNCeK6U08Zx4msEWOXuofgqUt6zPHSi1H9fbjR/NRA==
   dependencies:
     "@sinonjs/commons" "^1.7.0"
+
+"@styled-icons/heroicons-outline@^10.33.0":
+  version "10.33.0"
+  resolved "https://registry.yarnpkg.com/@styled-icons/heroicons-outline/-/heroicons-outline-10.33.0.tgz#36d50f62c8fa1c8bd417b57350186545fade5072"
+  integrity sha512-PPn5djK9Xz89CSHZaYxvoDauSCKyXH8tYuuZnFUiDvqxuUOneMuZZtKXAziONw+i/yccCWqXPNND5eUTH9Ejug==
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/material@^10.28.0":
+  version "10.28.0"
+  resolved "https://registry.yarnpkg.com/@styled-icons/material/-/material-10.28.0.tgz#9437b6a0acffcefb578247f349c2972403334244"
+  integrity sha512-+401y79/qclNEMVbkAy98sJbBazeX/0k0DuPsULikAa+GDmmfzwk+xi9HloQa1Gsyc9/Zbnc5Hf7rFiJcukfbA==
+  dependencies:
+    "@babel/runtime" "^7.12.13"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/styled-icon@^10.6.0":
+  version "10.6.3"
+  resolved "https://registry.yarnpkg.com/@styled-icons/styled-icon/-/styled-icon-10.6.3.tgz#eae0e5e18fd601ac47e821bb9c2e099810e86403"
+  integrity sha512-/A95L3peioLoWFiy+/eKRhoQ9r/oRrN/qzbSX4hXU1nGP2rUXcX3LWUhoBNAOp9Rw38ucc/4ralY427UUNtcGQ==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@emotion/is-prop-valid" "^0.8.7"
 
 "@surma/rollup-plugin-off-main-thread@^1.1.1":
   version "1.4.2"
@@ -4186,6 +4210,13 @@ dir-glob@^3.0.1:
   integrity sha512-WkrWp9GR4KXfKGYzOLmTuGVi1UWFfws377n9cc55/tb6DuqyF6pcQ5AbiHEshaDpY9v6oaSr2XCDidGmMwdzIA==
   dependencies:
     path-type "^4.0.0"
+
+discord-ui@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/discord-ui/-/discord-ui-1.0.1.tgz#4ee145bb86a1d414cb8371cd6842ce93bab3593e"
+  integrity sha512-uOlJZAL5Jm/3AgwBiMyHWrkZWg69zJFHPne6YVZ/94jUNjyJS3rg5GVtcOpjphtmezEaK7abfNUbdTjsQSmLcA==
+  dependencies:
+    prop-types "^15.7.2"
 
 dns-equal@^1.0.0:
   version "1.0.0"
