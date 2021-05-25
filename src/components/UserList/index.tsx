@@ -27,20 +27,9 @@ const UserList: React.FC = () => {
 
             <Role>Offline - 15</Role>
             <UserRow nickname="Buzz" isBot />
-            <UserRow nickname="Pinguim" />
-            <UserRow nickname="Pinguim" />
-            <UserRow nickname="Pinguim" />
-            <UserRow nickname="Pinguim" />
-            <UserRow nickname="Pinguim" />
-            <UserRow nickname="Pinguim" />
-            <UserRow nickname="Pinguim" />
-            <UserRow nickname="Pinguim" />
-            <UserRow nickname="Pinguim" />
-            <UserRow nickname="Pinguim" />
-            <UserRow nickname="Pinguim" />
-            <UserRow nickname="Pinguim" />
-            <UserRow nickname="Pinguim" />
-            <UserRow nickname="Pinguim" />
+            {Array.from(Array(14).keys()).map((n) => (
+                <UserRow key={n} nickname="Pinguim" />
+            ))}
         </Container>
     );
 };

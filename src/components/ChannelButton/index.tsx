@@ -4,7 +4,7 @@ import { Container, HashtagIcon, InviteIcon, SettingsIcon } from "./styles";
 
 export interface Props{
     channelName: string;
-    selected?: boolean
+    selected?: boolean;
 }
 
 const ChannelButton: React.FC<Props> = ({channelName, selected}) => {

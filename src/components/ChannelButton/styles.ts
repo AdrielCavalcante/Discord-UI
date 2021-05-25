@@ -11,6 +11,7 @@ export const Container = styled.div`
   cursor: pointer;
 
   padding: 5px 3px;
+  margin: 1px 0;
   border-radius: 5px;
 
   background-color: transparent;
@@ -35,7 +36,7 @@ export const Container = styled.div`
     }
     > div:not(:first-child) svg {
       display: flex;
-    }f
+    }
   }
   > div:not(:first-child) svg {
     display: none;

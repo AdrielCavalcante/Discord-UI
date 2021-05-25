@@ -11,7 +11,7 @@ const ChannelList: React.FC = () => {
                 <span>Canais de texto</span>
                 <AddCategoryIcon />
             </Category>
-                <ChannelButton channelName="Bate-papo" />
+                <ChannelButton channelName="Bate-papo" selected />
                 <ChannelButton channelName="Trabalho" />
                 <ChannelButton channelName="Memes" />
                 <ChannelButton channelName="Comandos" />

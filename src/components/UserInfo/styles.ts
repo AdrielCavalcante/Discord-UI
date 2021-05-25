@@ -17,13 +17,15 @@ export const Profile = styled.div`
   display: flex;
   align-items: center;
 `;
+
 export const Avatar = styled.div`
   width: 32px;
   height: 32px;
   border-radius: 50%;
 
-  background-color: var(--gray);
+  background-color: var(--primary);
 `;
+
 export const UserData = styled.div`
   margin-left: 8px;
 
@@ -32,26 +34,31 @@ export const UserData = styled.div`
 
   > strong {
     font-size: 13px;
+    letter-spacing: 0.5px;
     color: var(--white);
     display: block;
   }
 
   > span{
     color: var(--gray);
-    font-size: 13px;
+    font-size: 12px;
+
+    margin-left: -1px;
   }
 `;
+
 export const Icons = styled.div`
   display: flex;
   align-items: center;
 
   > svg:not(:first-child) {
-    margin-left: 7px;
+    margin-left: 10px;
   }
 `;
+
 export const MicIcon = styled(Mic)`
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
 
   color: var(--white);
   opacity: .7;
@@ -63,9 +70,10 @@ export const MicIcon = styled(Mic)`
     opacity: 1;
   }
 `;
+
 export const HeadPhoneIcon = styled(Headset)`
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
 
   color: var(--white);
   opacity: .7;
@@ -77,9 +85,12 @@ export const HeadPhoneIcon = styled(Headset)`
     opacity: 1;
   }
 `;
+
 export const SettingsIcon = styled(Settings)`
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
+
+  margin-right: 2px;
 
   color: var(--white);
   opacity: .7;

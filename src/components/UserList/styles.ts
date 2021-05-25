@@ -69,11 +69,11 @@ export const User = styled.div`
     background-color: var(--discord);
     color: var(--white);
     border-radius: 4px;
-    padding: 4px 5px;
+    padding: 2px 5px;
 
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 11px;
+    font-size: 10px;
   }
 `;
 export const Avatar = styled.div`
