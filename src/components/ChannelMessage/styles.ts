@@ -9,7 +9,7 @@ export const Container = styled.div`
 
   background-color: transparent;
 
-  &.metion{
+  &.mention{
     background-color: var(--mention-message);
 
     border-left: 2px solid var(--mention-detail);

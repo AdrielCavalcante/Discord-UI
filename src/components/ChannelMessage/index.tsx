@@ -24,7 +24,7 @@ const ChannelMessage: React.FC<Props> = ({author, date, content, hasMention, isB
 
                     <time>{date}</time>
                 </Header>
-                <Content>{content}</Content> {/*@Adriel, esse clone do discord poderia ter light-mode*/}
+                <Content>{content}</Content>
             </Message>
         </Container>
     );
