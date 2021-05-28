@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { AlternateEmail } from '@styled-icons/material';
+import { AlternateEmail, EmojiEmotions } from '@styled-icons/material';
 
 export const Container = styled.div`
   grid-area: ChannelData;
@@ -47,7 +47,7 @@ export const Input = styled.input`
   width: 100%;
   height: 44px;
 
-  padding: 0px 10px 0 57px;
+  padding: 0px 45px;
   border-radius: 7px;
 
   color: var(--white);
@@ -59,17 +59,34 @@ export const Input = styled.input`
     color: var(--gray);
   }
 
-  ~ svg{
-    position: relative;
-    top: -50%;
-    left: 14px;
-    transition: 180ms ease-in-out;
-  }
 `;
 
-export const InputIcon  = styled(AlternateEmail)`
+export const Icons = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 8px 8px 8px;
+  height: 0.1px;
+  position: relative;
+  top: -33px;
+
+`;
+
+export const InputIcon = styled(AlternateEmail)`
   width: 24px;
   height: 24px;
 
   color: var(--gray);
+`;
+
+export const EmojiIcon = styled(EmojiEmotions)`
+  width: 24px;
+  height: 24px;
+
+  cursor: pointer;
+  color: var(--gray);
+
+  &:hover{
+    color: var(--white);
+  }
 `;

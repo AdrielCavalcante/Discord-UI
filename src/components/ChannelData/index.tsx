@@ -1,7 +1,7 @@
 import React, { useRef, useEffect} from "react";
 import ChannelMessage, { Mention } from "../ChannelMessage";
 
-import { Container, Messages, InputWrapper, Input, InputIcon } from "./styles";
+import { Container, Messages, InputWrapper, Input, Icons, InputIcon, EmojiIcon } from "./styles";
 
 const ChannelData: React.FC = () => {
     const messagesRef = useRef() as React.MutableRefObject<HTMLDivElement>;
@@ -39,7 +39,10 @@ const ChannelData: React.FC = () => {
 
             <InputWrapper>
                 <Input type="text" placeholder="Conversar em # Bate-papo"/>
-                <InputIcon />
+                <Icons>
+                    <InputIcon />
+                    <EmojiIcon />
+                </Icons>
             </InputWrapper>
 
         </Container>

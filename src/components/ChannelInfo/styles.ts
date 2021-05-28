@@ -56,7 +56,7 @@ export const Icons = styled.div`
   }
 
   > svg{
-    margin-left: 15px;
+    margin-left: 14px;
   }
 
   > svg:last-child {
@@ -74,6 +74,26 @@ export const NotificationIcon = styled(Notifications)`
 
   transition: .2s;
 
+  &:hover{
+    color: var(--white);
+  }
+`;
+
+export const ThumbtackIcon = styled.svg`
+  width: 20px;
+  height: 20px;
+
+  color: var(--gray);
+  opacity: .7;
+  margin-top: 3px;
+  cursor: pointer;
+  transform: rotate(45deg);
+
+  transition: .2s;
+
+  &:hover{
+    color: var(--white);
+  }
 `;
 
 export const PeopleIcon = styled(People)`
@@ -85,4 +105,8 @@ export const PeopleIcon = styled(People)`
   cursor: pointer;
 
   transition: .2s;
+
+  &:hover{
+    color: var(--gray);
+  }
 `;

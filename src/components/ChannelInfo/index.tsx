@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Container, HashtagIcon, Title, Separator, Description, Icons, NotificationIcon, PeopleIcon } from "./styles";
+import { Container, HashtagIcon, Title, Separator, Description, Icons, NotificationIcon, ThumbtackIcon, PeopleIcon } from "./styles";
 
 import { faThumbtack } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -18,7 +18,7 @@ const ChannelInfo: React.FC = () => {
 
             <Icons>
                 <NotificationIcon />
-                <FontAwesomeIcon icon={faThumbtack} style={{width: '20px', height: '20px', color: 'var(--gray)', marginTop:'3px', cursor: 'pointer', transform: 'rotate(45deg)'}} />
+                <ThumbtackIcon> <FontAwesomeIcon icon={faThumbtack} /> </ThumbtackIcon>
                 <PeopleIcon />
             </Icons>
         </Container>

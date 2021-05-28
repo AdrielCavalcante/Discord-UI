@@ -12,6 +12,11 @@ export const Container = styled.div`
 
   box-shadow: rgba(0 ,0 ,0 , 0.2) 0px 1px 0px 0px;
   z-index: 2;
+
+  &:hover{  
+    background-color: var(--quinary);
+    cursor: pointer;
+  }
 `;
 
 export const Title = styled.div`
@@ -26,5 +31,4 @@ export const ExpandIcon = styled(ExpandMore)`
   height: 28px;
 
   color: var(--white);
-  cursor: pointer;
 `;
